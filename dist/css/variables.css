@@ -1,0 +1,15 @@
+/* All variables added just for sample, remove and add yours */
+:root {
+  --main-bg-color: #f8f8f8;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --grey-color:#eeeeee;
+  --first-text-color: #575C6B;
+  --second-tetx-color: #FF6D00;
+  --third-text-color: #FF7700;
+  --for-text-color: #4A4A4A;
+  --gradient-color:linear-gradient(317.76deg, #FFA600 40.02%, #FF7800 68.68%, #FF6D00 83.15%);
+  --box-gradient-color: linear-gradient(317.76deg,#FF7800 4.68%, #FF6D00 83.15%);
+  --btn-color: #CC2229;
+  --footer-bg-color: #9095A4;
+  --bg-color: #F5F5F5; }

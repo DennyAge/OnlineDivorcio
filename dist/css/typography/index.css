@@ -1,0 +1,26 @@
+/* Typography
+   ========================================================================== */
+@font-face {
+  font-family: Exo-Var;
+  src: url(/fonts/Exo-VariableFont_wght.ttf); }
+
+@font-face {
+  font-family: Exo-It;
+  src: url(/fonts/Exo-Italic-VariableFont_wght.ttf); }
+
+@font-face {
+  font-family: Exo-Sb;
+  src: url(/fonts/Exo-SemiBold.ttf); }
+
+:root {
+  --first-font-family: Exo-Var;
+  --second-font-family: Exo-Sb; }
+
+p, li, h5 {
+  font-family: var(--first-font-family); }
+
+a {
+  font-family: var(--first-font-family); }
+
+h1, h2, h3, h4 {
+  font-family: var(--second-font-family); }
