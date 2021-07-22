@@ -157,6 +157,31 @@ header{
         left: 210px;
         top: -2px;
         z-index: 5;
+          .text-1{
+            position: absolute;
+            left: 35px;
+            top: 5px;
+          h5{
+            color: var(--white-color);
+            font-size: 40px;
+            padding-right: 15px;
+            &::after{
+              content: '';
+              display: block;
+              width: 2px;
+              height: 40px;
+              background: var(--white-color);
+              position: absolute;
+              left: 115px;
+              top: 4px;
+            }
+          }
+          p{
+            color: var(--white-color);
+            font-size: 16px;
+            padding-left: 7px;
+          }
+        }  
           img{
             width: 500px;
           }
@@ -166,6 +191,21 @@ header{
         left: 750px;
         top: 0px;
         z-index: 5;
+        .text-2{
+          position: absolute;
+          left: 50px;
+          top: 17px;
+        h5{
+          color: var(--white-color);
+          font-size: 35px;
+          line-height: 10px;
+        }
+        p{
+          color: var(--white-color);
+          font-size: 14px;
+          padding-left: 7px;
+        }
+      }  
           img{
           width: 150px;
          }
@@ -641,9 +681,6 @@ header{
       letter-spacing: 0.82px;
       color: var(--grey-color);
     }
-    img{
-      
-    }
   }
 }
 
@@ -863,12 +900,35 @@ header{
     .box{
       margin: 0 0 -40px 0;
       .halper{
+        .text-1{
+          left:30px;
+          top:0;
+          h5{
+            font-size: 35px;
+            &::after{
+              left: 100px;
+            }
+          }
+          p{
+            font-size: 14px;
+          }
+        }
         img{
           width: 415px;
           
         }
       }
       .next{
+        .text-2{
+          left: 40px;
+          top: 12px;
+          h5{
+            font-size: 27px;
+          }
+          p{
+            font-size: 12px;
+          }
+        }
         margin-left: -365px;
           img{
           width: 125px;
@@ -949,12 +1009,32 @@ header{
     .box{
       margin: 0 0 -40px 0;
       .halper{
+        .text-1{
+          h5{
+            &::after{
+              height: 30px;
+            }
+          }
+          p{
+            font-size: 12px;
+          }
+        }
         img{
           width: 375px;
           
         }
       }
       .next{
+        .text-2{
+          left: 40px;
+          top: 12px;
+          h5{
+            font-size: 27px;
+          }
+          p{
+            font-size: 8px;
+          }
+        }
         margin-left: -400px;
           img{
           width: 105px;
@@ -1064,12 +1144,39 @@ header{
       }
       .halper{
       margin-left: -214px;
+      .text-1{
+        left:30px;
+        top:0;
+        h5{
+          font-size: 30px;
+          &::after{
+            left: 90px;
+            height: 20px;
+          }
+        }
+        p{
+          font-size: 9px;
+          margin: 5px 0;
+        }
+      }
         img{
           width: 310px;
         }
       }
       .next{
-      margin-left: -455px;
+        margin-left: -455px;
+        .text-2{
+          left: 30px;
+          top: 15px;
+          h5{
+            font-size: 20px;
+            line-height: 1px;
+          }
+          p{
+            font-size: 8px;
+            margin-left: -5px;
+          }
+        }
         img{
           width: 90px;
         }
