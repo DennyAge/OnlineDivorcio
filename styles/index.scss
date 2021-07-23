@@ -774,7 +774,7 @@ header{
   }
   .about{
     width: 100%;
-    height: 100vh;
+    height: 900px;
     .about__contant{
       h1{
         font-size: 45px;
@@ -810,6 +810,10 @@ header{
       }
     }
   }
+  .obtenga{
+    height: 1100px;
+  }
+
   .coment{
     .slide{
       width: 100%;
@@ -929,7 +933,7 @@ header{
             font-size: 12px;
           }
         }
-        margin-left: -365px;
+        margin-left: -335px;
           img{
           width: 125px;
          }
@@ -939,12 +943,13 @@ header{
   }
   .solo{
     .arrow{
-      margin-left: 295px;
+      margin-left: 385px;
       transform: rotate(90deg); 
     }
   }
   .obtenga{
     background: none;
+    height: 950px;
   }
   
   .coment{
@@ -1115,6 +1120,7 @@ header{
 @media (max-width: 414px){
   .about{
     background: none;
+    height: 800px;
     .about__contant{
       h1{
         margin-top: -30px;
@@ -1195,7 +1201,7 @@ header{
     }
   }
   .solo{
-    margin-top: 390px;
+    margin-top: 510px;
     .arrow{
       margin-left: 245px;
       transform: rotate(90deg); 
@@ -1283,6 +1289,188 @@ header{
       .text{
         span{
           padding: 0 0 0 180px;
+    
+        }
+      }
+    }
+  } 
+  .obtenga{
+    height: 800px;
+  }
+}
+@media (max-width: 375px){
+  .about{
+    background: none;
+    .about__contant{
+      h1{
+        margin-top: -30px;
+        font-size: 22px;
+      }
+      .bg-img{
+        width: 200px;
+        left: 190px;
+        top: -50px;
+        transform: scale(1);
+      }
+      .about__itam{
+        ul{
+          margin-top: 40px;
+          font-size: 14px;
+          li{
+            margin: 24px 0;
+            padding-left: 24px;
+          }
+        }
+      }
+    }
+    .box{
+      margin: 0 0 -42px 0;
+      h3{
+        display: none;
+      }
+      .halper{
+      margin-left: -214px;
+      .text-1{
+        left:30px;
+        top:0;
+        h5{
+          font-size: 27px;
+          &::after{
+            left: 85px;
+            height: 20px;
+          }
+        }
+        p{
+          font-size: 8px;
+          margin: 5px 0;
+        }
+      }
+        img{
+          width: 280px;
+        }
+      }
+      .next{
+        margin-left: -485px;
+        .text-2{
+          left: 30px;
+          top: 13px;
+          h5{
+            font-size: 18px;
+            line-height: 1px;
+          }
+          p{
+            font-size: 7px;
+            margin-left: -5px;
+          }
+        }
+        img{
+          width: 80px;
+        }
+      }
+    }
+    .verific{
+      .verific__itam{
+        .form_btn{
+          width: 290px;
+            i{
+              margin-left: 40px;
+            }
+        }
+      } 
+    }
+  }
+  .solo{
+    margin-top: 410px;
+    .arrow{
+      margin-left: 220px;
+      transform: rotate(90deg); 
+    }
+  }
+  .partners{
+    height: 300px;
+    margin-top: 320px;
+  }
+  .faq{
+    .faq__title{
+      h1{
+        font-size: 22px;
+        text-align: center;
+      }
+      .faq__itam{
+        h3{
+          font-size: 16px;
+        }
+        span{
+          font-size: 16px;
+        }
+        p{
+          font-size: 14px;
+        }
+        ul{
+          font-size: 14px;
+        }
+      }
+    }
+    .faq__contant{
+      .faq__contant_iner{
+        h2{
+          width: 300px;
+          font-size: 18px;
+        }
+        p{
+          width: 330px;
+          font-size: 13px;
+        }
+        li{
+          width: 300px;
+          font-size: 14px;
+          font-weight: 400;
+          text-align: left;
+          margin: 10px 10px 20px 40px;
+        }
+        .btn{
+          width: 300px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .coment{
+    .responsive{
+      .slick-arrow{
+        top: 40%;
+         &.slick-prev{
+          right: 10px;
+         }
+          &.slick-next{
+          left: 55px;
+          }
+      }
+    }
+    .slide{
+      height: 330px;
+      .author{
+        position: relative;
+        
+        img{
+          padding: 23px 10px 16px 0;
+        }
+        .star{
+          margin-left: 85px;
+          padding-top: 50px;
+        }
+        span{
+          position: absolute;
+          left: -50px;
+          top: 290px;
+        }
+      }
+      .text{
+        p{
+          font-size: 12px;
+        }
+        span{
+          padding: 0px 0 0 80px;
     
         }
       }
